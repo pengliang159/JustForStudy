@@ -1,9 +1,7 @@
 package com.prl.thread.test;
 
-import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /*
  Copyright (c) 2013 QIDAPP.com. All rights reserved.
@@ -66,7 +64,7 @@ public class SyncThread extends Thread {
 		bq.put("cc");
 		bq.put("dd");
 		for (String b : bq) {
-			System.out.println(bq.take());
+			System.out.println(bq.take() + b);
 		}
 	}
 }
