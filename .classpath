@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="thread/" kind="src" path="src"/>
+	<classpathentry kind="src" path="main/sort"/>
+	<classpathentry kind="src" path="src/thread"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/PROJs10/libs/commons-lang.jar" sourcepath="C:/Users/Administrator/.m2/repository/commons-lang/commons-lang/2.2/commons-lang-2.2-sources.jar"/>
+	<classpathentry kind="lib" path="E:/教程文件/其他工具/Java Concurrency in Practice/jcip-examples-src.jar" sourcepath="E:/教程文件/其他工具/Java Concurrency in Practice/java并发编程实战pdf及源码/jcip-examples-src"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
