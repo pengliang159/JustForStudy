@@ -15,4 +15,7 @@ public class ExpiredThread {
 	public String[] getStates(){
 		return states;
 	}
+	
+	public static void main(String[] args) {
+	}
 }
